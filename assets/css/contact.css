@@ -1,0 +1,17 @@
+header {
+	height: 56px;
+	width: auto;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 56px; 
+	background-color: #4aaaa5;
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+	color: #ffffff; 
+	border: 5px #ffffff;
+}
+
+h1{
+	color: #4aaaa5;
+
+}
