@@ -24,15 +24,24 @@ h1{
 
 }
 
-#connect-with-me{
-	float: left;
+aside{
+
+		width: 40%;
+		clear: both;
+		float: right;
+		margin: auto;
+		display: block;
+}
+
 
 }
 
 footer{
-	text-align: center;
-	background-color: #777777;
 	clear: both;
 	padding: 20px;
+	background-color: #666666;
+	text-align: center;
+	color: #ffffff;
+	width: 965px;
 
 }
