@@ -1,6 +1,6 @@
 header {
 	height: 56px;
-	width: auto;
+	width: 650px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 56px; 
 	background-color: #4aaaa5;
@@ -13,5 +13,26 @@ header {
 
 h1{
 	color: #4aaaa5;
+	
+
+}
+
+.form{
+	display: block;
+	width: 100px;
+	border-style: solid gray;
+
+}
+
+#connect-with-me{
+	float: left;
+
+}
+
+footer{
+	text-align: center;
+	background-color: #777777;
+	clear: both;
+	padding: 20px;
 
 }

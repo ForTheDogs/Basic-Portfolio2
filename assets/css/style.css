@@ -8,9 +8,7 @@ header {
 	margin: 20px;
 	padding: 20px;
 	color: #ffffff; 
-	border: 5px #ffffff
-
-
+	border: 5px #ffffff;
 }
 
 body {
@@ -25,36 +23,45 @@ body {
 }
 
 .container {
-	width: 1024px;
+
+	width: 965px;
 	margin: 0 auto;
 	
 
 }
 
-h1{
-	text-align: center;
+h1{	
+	display: block;
+	text-indent: 100px;
 	color: #4aaaa5;
 
 }
 
+
 #main-bio{
-		float: left;
-		width: 200px;
-		border-style: solid;
-		padding: 25px;
-		margin: 25px;
-	
+		width: 40%;
+   		height: 100px;
+    	padding: 50px;
+    	border: 1px solid gray;
+    	box-sizing: border-box;
 }
 
 #contact-info{
-		border: 6px solid gray;
+		width: 40%;
+		clear: both;
 		float: right;
 		margin: auto;
+		display: block;
+}
+
+h2{
+	text-align: left;
+	color: #4aaaa5;
 
 }
 
 .me{
-	text-align: right;
+	text-align: left;
 	width: 500px;
 	border: 25px;
 	padding: 5px;
