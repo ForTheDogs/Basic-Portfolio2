@@ -46,7 +46,8 @@ h1{
     	box-sizing: border-box;
 }
 
-#contact-info{
+aside{
+
 		width: 40%;
 		clear: both;
 		float: right;
