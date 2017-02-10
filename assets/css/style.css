@@ -1,64 +1,108 @@
 header {
-	height: 56px;
+	height: 90px;
 	width: auto;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 56px; 
-	background-color: #4aaaa5;
+	/*I took out the background color for the header*/
 	text-align: center;
-	margin: 20px;
-	padding: 20px;
-	color: #ffffff; 
+	/*I changed this to margin bottom*/
+	margin-bottom: 20px;
+	/*I removed the padding from the header*/
+	background-color: white;
+	color: #ffffff;
 	border: 5px #ffffff;
 }
-
 body {
+	/*I took out the overall body width of 500px*/
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	width: 580px;
 	background: white;
 	line-height: 180%;
-	margin: 0;
-    padding: 0;
-    border: 2px #dddddd;
-
+	/*I added the background image*/
+	background-image: url(../images/ep_naturalwhite.png);
 }
-
-.container {
-
-	width: 965px;
-	margin: 0 auto;
-	
-
-}
-
-h1{	
+h1{
 	display: block;
 	text-indent: 100px;
 	color: #4aaaa5;
-
 }
-
-
-#main-bio{
-		width: 40%;
-   		height: 100px;
-    	padding: 50px;
-    	border: 1px solid gray;
-    	box-sizing: border-box;
-}
-
-aside{
-
-		width: 40%;
-		clear: both;
-		float: right;
-		margin: auto;
-		display: block;
-}
-
 h2{
 	text-align: left;
 	color: #4aaaa5;
+}
+h4{
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 230px;
+}
 
+aside{
+	padding: 30px;
+ width: 100%;
+ max-width: 270px;
+ float: right;
+ margin-bottom: 20px;
+ background: #fff;
+ border: 1px solid #ddd;
+}
+
+
+footer{
+	border-top: 10px solid;
+	border-color: #4aaaa5;
+	clear: both;
+	padding: 20px;
+	background-color: #666666;
+	text-align: center;
+	color: #ffffff;
+	/*I changed this width to 100%*/
+	width: 100%;
+
+}
+#logo {
+  width: 250px;
+  height: 90px;
+  float: left;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  text-align: center;
+  line-height: 90px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  text-decoration: none;
+  background: #4aaaa5;
+}
+/*I added navigation, there was none at all*/
+nav {
+  float: right;
+  margin-top: 25px;
+}
+
+nav a {
+  display: inline-block;
+  margin-left: 15px;
+  padding-left: 15px;
+  color: #999;
+  text-decoration: none;
+  line-height: 18px;
+  border-left: 1px solid #efefef;
+}
+
+nav a:first-child {
+  border-left: 0 none;
+}
+.container {
+	clear: both;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 960px;
+}
+
+#mainBio{
+	padding: 30px;
+  margin: 0 0 40px 0;
+  max-width: 650px;
+  float: left;
+  background: #fff;
+  border: 1px solid #ddd;
 }
 
 .me{
@@ -77,13 +121,23 @@ h2{
 .header>strong {
 	font-size: 35px;
 }
+.form{
+	display: block;
+	width: 100px;
+	border-style: solid gray;
+}
+.image1{
+		margin: left;
+		border-left: 1px solid gray;
+		padding: 1em;
+		overflow: hidden;
 
-footer{
-	clear: both;
-	padding: 20px;
-	background-color: #666666;
-	text-align: center;
-	color: #ffffff;
-	width: 965px;
+}
 
+.image2{
+		margin: right;
+		border-left: 1px solid gray;
+		padding: 1em;
+		overflow: hidden;
+		float: left;
 }
